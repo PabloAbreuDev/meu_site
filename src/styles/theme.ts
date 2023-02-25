@@ -29,3 +29,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: "Open Sans", sans-serif;
   }
 `;
+
+export const breakpoints = {
+  mobile: "768px",
+};
