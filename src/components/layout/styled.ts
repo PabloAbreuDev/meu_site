@@ -149,9 +149,26 @@ export const LayoutStyled = styled.div<{
 
   .content {
     padding: 30px;
-    width: 70%;
     margin: 0 auto;
+    max-height: 100vh;
+    overflow: scroll;
     color: ${(props) => props.theme.colors.white};
+    ::-webkit-scrollbar {
+      width: 5px;
+      background-color: #16161d;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    .content-area {
+      width: 90%;
+      margin: 0 auto 50px auto;
+      @media screen and (max-width: ${breakpoints.mobile}) {
+        padding-bottom: 50px;
+      }
+    }
     @media screen and (max-width: ${breakpoints.mobile}) {
       margin: 0;
       margin-top: 40px;

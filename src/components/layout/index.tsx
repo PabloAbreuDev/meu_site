@@ -133,7 +133,12 @@ export default function Layout({ children }: { children: React.ReactElement }) {
                     </ul>
                 </nav>
             </div>
-            <div className="content">{children}</div>
+            <div className="content">
+                <div className="content-area">
+                    {children}
+
+                </div>
+            </div>
         </LayoutStyled >
     );
 }

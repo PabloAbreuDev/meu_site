@@ -1,8 +1,8 @@
 import { breakpoints } from "@/styles/theme";
 import styled from "styled-components";
-export const HomeStyled = styled.div`
+export const HomeStyled = styled.section`
   .presentation {
-    width: 70%;
+    width: 65%;
     margin-bottom: 40px;
     .my-name {
       color: ${(props) => props.theme.colors.lightBlue};
