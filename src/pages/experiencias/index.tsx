@@ -39,6 +39,7 @@ const Experiencias: NextPageWithLayout = () => {
             <div className="experiences-balloons-area">
                 {experiences.map((item, index) => (
                     <ExperienceBalloon
+                        key={index}
                         photo={item.photo}
                         duration={item.duration}
                         title={item.title}
