@@ -19,7 +19,7 @@ export const LayoutStyled = styled.div<{
     flex-direction: column;
     .sidebar-content {
       width: 250px;
-      min-height: 100vh;
+      min-height: 100%;
       background-color: rgba(80, 80, 80, 0.1);
       -webkit-backdrop-filter: blur(8px);
       backdrop-filter: blur(8px);
@@ -63,7 +63,7 @@ export const LayoutStyled = styled.div<{
   }
 
   .narbar-top {
-    background-color: #2b2d41;
+    background-color: ${(props) => props.theme.colors.darkBlue};
     display: none;
 
     .brand-name {
@@ -106,21 +106,20 @@ export const LayoutStyled = styled.div<{
         @media screen and (max-width: 768px) {
           flex-direction: column;
           position: absolute;
+          top: 30px;
           left: 0;
           width: 100%;
           height: calc(100vh - 30px);
           background-color: ${(props) => props.theme.colors.darkBlue};
           display: ${(props) => (props.expanded ? "block" : "none")};
-          border-top: 1px solid black;
+          border-top: 0.5px solid black;
         }
       }
     }
 
     .hamburger {
-      // removes default border on button element
       cursor: pointer;
       transition: background-color 0.2s ease-in-out;
-      // positions the icon to the right and center aligns it vertically
       position: absolute;
       top: 50%;
       right: 25px;
@@ -150,8 +149,13 @@ export const LayoutStyled = styled.div<{
 
   .content {
     padding: 30px;
-    margin-top: 40px; /* Add a top margin to avoid content overlay */
+    width: 70%;
+    margin: 0 auto;
     color: ${(props) => props.theme.colors.white};
+    @media screen and (max-width: ${breakpoints.mobile}) {
+      margin: 0;
+      margin-top: 40px;
+    }
   }
 
   @media screen and (max-width: ${breakpoints.mobile}) {

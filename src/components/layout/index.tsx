@@ -88,36 +88,50 @@ export default function Layout({ children }: { children: React.ReactElement }) {
             </header>
             <div className="narbar-top">
                 <a href="/" className="brand-name">
-                    Pablo Abreu
+                    Pablo<span style={{ color: "#4E4E94" }}> Abreu</span>
                 </a>
                 <div className="hamburger" onClick={() => setIsNavExpanded(!isNavExpanded)}>
                     <GiHamburgerMenu />
                 </div>
-                <div className="navigation-menu expanded">
+                <nav className="navigation-menu expanded">
                     <ul>
                         <li>
-                            <a href="/home">Home</a>
+                            <Link href="/">
+                                Home
+                            </Link>
                         </li>
                         <li>
-                            <a href="/experiencias">Experiências</a>
+                            <Link href="/experiencias">
+                                Experiências
+                            </Link>
                         </li>
                         <li>
-                            <a href="/projetos">Projetos</a>
+                            <Link href="/projetos">
+                                Projetos
+                            </Link>
                         </li>
                         <li>
-                            <a href="/contatos">Contatos</a>
+                            <Link href="/contatos">
+                                Contatos
+                            </Link>
                         </li>
                         <li>
-                            <a href="/linkedin">Linkedin</a>
+                            <a href="https://www.linkedin.com/in/pablodev95/" target={"_blank"}>
+                                Linkedin
+                            </a>
                         </li>
                         <li>
-                            <a href="/github">Github</a>
+                            <a href="https://github.com/PabloAbreuDev" target={"_blank"}>
+                                Github
+                            </a>
                         </li>
                         <li>
-                            <a href="/medium">Medium</a>
+                            <a href="https://medium.com/@pabloabreudev" target={"_blank"}>
+                                Medium
+                            </a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
             <div className="content">{children}</div>
         </LayoutStyled >
