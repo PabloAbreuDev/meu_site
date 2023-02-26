@@ -6,7 +6,6 @@ const Projetos: NextPageWithLayout = () => {
     return (
         <>
             <h2 className="page-title">Projetos</h2>
-
         </>
     )
 }

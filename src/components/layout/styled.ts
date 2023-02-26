@@ -20,7 +20,7 @@ export const LayoutStyled = styled.div<{
     .sidebar-content {
       width: 250px;
       min-height: 100%;
-      background-color: rgba(80, 80, 80, 0.1);
+      background-color: rgba(80, 80, 80, 0.2);
       -webkit-backdrop-filter: blur(8px);
       backdrop-filter: blur(8px);
       .photo-area {
@@ -154,15 +154,7 @@ export const LayoutStyled = styled.div<{
     max-height: 100vh;
     overflow: scroll;
     color: ${(props) => props.theme.colors.white};
-    ::-webkit-scrollbar {
-      width: 5px;
-      background-color: #16161d;
-    }
 
-    ::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      background-color: rgba(255, 255, 255, 0.3);
-    }
     .content-area {
       width: 90%;
       margin: 0 auto 50px auto;

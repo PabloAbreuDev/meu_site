@@ -11,21 +11,21 @@ import BackgroundSidebarImage from "../../../public/images/sidebar_background.jp
 const experiences: ExperienceProps[] = [
     {
         photo: <Image src={BackgroundSidebarImage} alt={"Exemplo qualquer"} />,
-        duration: "Jan 2022 - Presente",
+        duration: "Jan 2023 - Presente",
         title: "Exemplo de Empresa",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus ligula nulla, quis pretium nibh convallis quis. Pellentesque ullamcorper dolor ac porta porta. Fusce porttitor congue fringilla. Donec hendrerit lectus a eros pulvinar efficitur. Nulla facilisi. Vivamus a quam tellus. Proin dignissim porta sodales. Suspendisse tincidunt nulla ac dolor suscipit",
     },
     {
         photo: <Image src={BackgroundSidebarImage} alt={"Exemplo qualquer"} />,
-        duration: "Jan 2022 - Presente",
+        duration: "Jan 2023 - Presente",
         title: "Exemplo de Empresa",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus ligula nulla, quis pretium nibh convallis quis. Pellentesque ullamcorper dolor ac porta porta. Fusce porttitor congue fringilla. Donec hendrerit lectus a eros pulvinar efficitur. Nulla facilisi. Vivamus a quam tellus. Proin dignissim porta sodales. Suspendisse tincidunt nulla ac dolor suscipit",
     },
     {
         photo: <Image src={BackgroundSidebarImage} alt={"Exemplo qualquer"} />,
-        duration: "Jan 2022 - Presente",
+        duration: "Jan 2023 - Presente",
         title: "Exemplo de Empresa",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus ligula nulla, quis pretium nibh convallis quis. Pellentesque ullamcorper dolor ac porta porta. Fusce porttitor congue fringilla. Donec hendrerit lectus a eros pulvinar efficitur. Nulla facilisi. Vivamus a quam tellus. Proin dignissim porta sodales. Suspendisse tincidunt nulla ac dolor suscipit",

@@ -34,6 +34,15 @@ export const GlobalStyles = createGlobalStyle`
 overflow: hidden;
 
   }
+   ::-webkit-scrollbar {
+      width: 8px;
+      background-color: #16161d;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.3);
+    }
 
   .page-title
   {
