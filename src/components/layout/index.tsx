@@ -59,37 +59,37 @@ export default function Layout({ children }: { children: React.ReactElement }) {
                         </div>
                         <div className="spacer"></div>
                         <div className="item-list">
-                            <a href="https://www.linkedin.com/in/pablodev95/" target={"_blank"}>
+                            <Link href="https://www.linkedin.com/in/pablodev95/" target={"_blank"}>
                                 <i>
                                     <FaLinkedinIn />
                                 </i>
                                 Linkedin
-                            </a>
+                            </Link>
 
                         </div>
                         <div className="item-list">
-                            <a href="https://github.com/PabloAbreuDev" target={"_blank"}>
+                            <Link href="https://github.com/PabloAbreuDev" target={"_blank"}>
                                 <i>
                                     <FiGithub />
                                 </i>
                                 Github
-                            </a>
+                            </Link>
                         </div>
                         <div className="item-list">
-                            <a href="https://medium.com/@pabloabreudev" target={"_blank"}>
+                            <Link href="https://medium.com/@pabloabreudev" target={"_blank"}>
                                 <i>
                                     <FaMediumM />
                                 </i>
                                 Medium
-                            </a>
+                            </Link>
                         </div>
                     </nav>
                 </div>
             </header>
             <div className="narbar-top">
-                <a href="/" className="brand-name">
+                <Link href="/" className="brand-name">
                     Pablo<span style={{ color: "#4E4E94" }}> Abreu</span>
-                </a>
+                </Link>
                 <div className="hamburger" onClick={() => setIsNavExpanded(!isNavExpanded)}>
                     <GiHamburgerMenu />
                 </div>
@@ -116,19 +116,19 @@ export default function Layout({ children }: { children: React.ReactElement }) {
                             </Link>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/pablodev95/" target={"_blank"}>
+                            <Link href="https://www.linkedin.com/in/pablodev95/" target={"_blank"}>
                                 Linkedin
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="https://github.com/PabloAbreuDev" target={"_blank"}>
+                            <Link href="https://github.com/PabloAbreuDev" target={"_blank"}>
                                 Github
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="https://medium.com/@pabloabreudev" target={"_blank"}>
+                            <Link href="https://medium.com/@pabloabreudev" target={"_blank"}>
                                 Medium
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </nav>
