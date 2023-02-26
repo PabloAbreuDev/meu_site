@@ -5,7 +5,8 @@ import { NextPageWithLayout } from "../_app";
 const Projetos: NextPageWithLayout = () => {
     return (
         <>
-            Projetos
+            <h2 className="page-title">Projetos</h2>
+
         </>
     )
 }

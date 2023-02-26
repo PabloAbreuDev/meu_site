@@ -21,6 +21,10 @@ export const darkTheme: DefaultTheme = {
     grey: "#999999",
   },
 };
+export const breakpoints = {
+  mobile: "768px",
+  tablet: "1025px",
+};
 
 export const GlobalStyles = createGlobalStyle`
   body {
@@ -30,8 +34,28 @@ export const GlobalStyles = createGlobalStyle`
 overflow: hidden;
 
   }
-`;
 
-export const breakpoints = {
-  mobile: "768px",
-};
+  .page-title
+  {
+   
+      display: inline-block;
+      position: relative;
+      font-size: 30px;
+      padding-bottom: 0.5em;
+      margin-bottom: 50px;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 65%;
+        border-bottom: 4px solid #ccc;
+        @media screen and (max-width: ${breakpoints.mobile}) {
+          border-bottom: none;
+       
+      }
+    }
+  }
+`;

@@ -64,6 +64,7 @@ export const LayoutStyled = styled.div<{
 
   .narbar-top {
     background-color: ${(props) => props.theme.colors.darkBlue};
+    z-index: 1;
     display: none;
 
     .brand-name {

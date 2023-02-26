@@ -53,7 +53,7 @@ const Home: NextPageWithLayout = () => {
       </div>
 
       <div className="habilities">
-        <h2>Habilidades</h2>
+        <h2 className="page-title">Habilidades</h2>
         <div className="hability-cards-area">
           {habilities.map((item, index) => (
             <CardHability

@@ -1,4 +1,3 @@
-import { IconType } from "react-icons";
 import { CardHabilityStyled } from "./styled";
 
 export type CardHabilityProps = {

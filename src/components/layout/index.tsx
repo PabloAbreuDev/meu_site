@@ -94,7 +94,7 @@ export default function Layout({ children }: { children: React.ReactElement }) {
                     <GiHamburgerMenu />
                 </div>
                 <nav className="navigation-menu expanded">
-                    <ul>
+                    <ul onClick={() => setIsNavExpanded(false)}>
                         <li>
                             <Link href="/">
                                 Home
