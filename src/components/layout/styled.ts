@@ -161,7 +161,7 @@ export const LayoutStyled = styled.div<{
       @media screen and (max-width: ${breakpoints.mobile}) {
         padding-bottom: 50px;
         width: 100%;
-        padding: 30px 0 120px 0;
+        padding: 30px 0;
       }
     }
     @media screen and (max-width: ${breakpoints.mobile}) {

@@ -15,7 +15,7 @@ declare module "styled-components" {
 export const darkTheme: DefaultTheme = {
   colors: {
     black: "#16161D",
-    lightBlue: "#4E4E94",
+    lightBlue: "#924DE5",
     darkBlue: "#2B2D41",
     white: "#FFFFFF",
     grey: "#999999",

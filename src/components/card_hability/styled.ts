@@ -7,6 +7,7 @@ export const CardHabilityStyled = styled.div`
   padding: 30px 20px;
   border-radius: 3px;
   display: inline-block;
+  border-radius: 6px;
 
   .icon {
     color: ${(props) => props.theme.colors.lightBlue};

@@ -37,6 +37,7 @@ export const ContactBoxStyled = styled.div`
   .contact-btn-send {
     background-color: ${(props) => props.theme.colors.lightBlue};
     color: ${(props) => props.theme.colors.white};
+    border-radius: 6px;
     padding: 10px;
     text-align: center;
     cursor: pointer;
