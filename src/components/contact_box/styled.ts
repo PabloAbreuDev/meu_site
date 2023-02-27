@@ -8,6 +8,7 @@ export const ContactBoxStyled = styled.div`
   padding: 40px;
   gap: 20px;
   border-radius: 6px;
+  margin-bottom: 120px;
 
   .contact-input {
     color: #999999;
