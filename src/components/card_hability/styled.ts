@@ -20,7 +20,7 @@ export const CardHabilityStyled = styled.div`
   }
 
   @media screen and (max-width: ${breakpoints.mobile}) {
-    width: 80%;
+    width: 100%;
     text-align: center;
   }
 `;

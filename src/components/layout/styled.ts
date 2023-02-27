@@ -160,6 +160,8 @@ export const LayoutStyled = styled.div<{
       margin: 0 auto 50px auto;
       @media screen and (max-width: ${breakpoints.mobile}) {
         padding-bottom: 50px;
+        width: 100%;
+        padding: 30px 0;
       }
     }
     @media screen and (max-width: ${breakpoints.mobile}) {

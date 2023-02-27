@@ -1,3 +1,4 @@
+import { breakpoints } from "@/styles/theme";
 import styled from "styled-components";
 
 export const ContactBoxStyled = styled.div`
@@ -43,5 +44,9 @@ export const ContactBoxStyled = styled.div`
     &:hover {
       background-color: ${(props) => props.theme.colors.black};
     }
+  }
+
+  @media screen and (max-width: ${breakpoints.mobile}) {
+    padding: 20px;
   }
 `;

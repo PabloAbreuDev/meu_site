@@ -25,6 +25,7 @@ export const HomeStyled = styled.section`
     }
 
     .curriculum-button {
+      border-radius: 6px;
       background-color: ${(props) => props.theme.colors.lightBlue};
       color: ${(props) => props.theme.colors.white};
       display: inline-block;
@@ -45,12 +46,11 @@ export const HomeStyled = styled.section`
       gap: 30px;
       margin: 0 auto;
       @media screen and (max-width: ${breakpoints.mobile}) {
-        justify-content: center;
+        align-items: center;
       }
     }
 
     @media screen and (max-width: ${breakpoints.mobile}) {
-      width: 80vw;
       display: flex;
       flex-direction: column;
     }
